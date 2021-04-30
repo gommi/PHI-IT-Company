@@ -1,0 +1,646 @@
+@font-face {
+  font-family: "Arkibal-Serif-Heavy";
+  src: url("../fonts/Arkibal\ Serif\ Heavy.otf");
+}
+
+@font-face {
+  font-family: "Arkibal-Serif-Bold";
+  src: url("../fonts/Arkibal\ Serif\ Bold.otf");
+}
+
+@font-face {
+  font-family: "Arkibal-Serif-Regular";
+  src: url("../fonts/Arkibal\ Serif\ Regular.otf");
+}
+
+@font-face {
+  font-family: "Arkibal-Serif-Medium";
+  src: url("../fonts/Arkibal\ Serif\ Medium.otf");
+}
+
+@font-face {
+  font-family: "Arkibal-Serif-Thin";
+  src: url("../fonts/Arkibal\ Serif\ Thin.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#phiTitle {
+  color: #303030;
+  font-size: 32px;
+  font-family: "Arkibal-Serif-Heavy";
+}
+
+#phiTitle a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #303030;
+  font-size: 20px;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+#consent-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 8rem;
+  background-color: #fff;
+  transition: opacity 1s ease;
+}
+
+#accept {
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.slika {
+  min-height: 100vh;
+  background-image: url("../img/random.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.phiTwo {
+  font-size: 72px;
+  font-family: "Arkibal-Serif-Heavy";
+  font-weight: 600;
+  line-height: 82px;
+  letter-spacing: 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fff;
+}
+
+.its {
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  font-family: "Arkibal-Serif-Bold";
+  letter-spacing: 2px;
+  margin-left: 0;
+  line-height: normal;
+  color: #fff;
+}
+
+#btnBanner{
+  width: 200px;
+  height: 48px;
+  font-family: "Arkibal-Serif-Bold";
+  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*padding-top: 25px;
+  padding-left: 0;
+  margin-left: 0; */
+
+@media (max-width: 576px) {
+  .slika {
+    min-height: 60vh;
+  }
+  .whiteCont {
+    min-height: 60vh;
+  }
+  .phiTwo {
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 85px;
+  }
+  .its {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  #btnBanner {
+    width: 150px;
+    height: 48px;
+
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .phiTwo {
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 25px;
+  }
+  .its {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  #btnBanner {
+    width: 200px;
+    height: 48px;
+
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .phiTwo {
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 25px;
+  }
+  .its {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  #btnBanner {
+    width: 200px;
+    height: 48px;
+
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .phi {
+    font-size: 64px;
+    padding-top: 15px;
+    margin-bottom: 0;
+  }
+  .its {
+    font-size: 24px;
+    margin-left: 0;
+  }
+  #btnBanner {
+    width: 150px;
+    
+  }
+}
+@media (min-width: 1200px) and (max-width: 1489.98px) {
+}
+/**about */
+.aboutcontainer {
+  margin-top: 0px;
+}
+#aboutUs {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fed803;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+.abouTextContainer {
+  background-color: #fff;
+  padding-left: 16px;
+}
+.aboutYellow {
+  background-color: #fed803;
+}
+#title {
+  font-size: 84px;
+  font-family: "Arkibal-Serif-Heavy";
+  margin-bottom: 0px;
+}
+#subtitle {
+  font-size: 32px;
+  line-height: normal;
+  font-family: "Arkibal-Serif-Bold";
+}
+#text {
+  font-size: 16px;
+  font-family: "Arkibal-Serif-Regular";
+}
+#zgrada {
+  height: 400px;
+  background-image: url("../img/architecture.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.zeroOne {
+  font-size: 120px;
+  color: #ffffff;
+  font-family: "Arkibal-Serif-Heavy";
+  line-height: 120px;
+}
+
+.zeroOne span {
+  font-family: "Arkibal-Serif-Thin";
+}
+
+@media (max-width: 576px) {
+  #aboutUs {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  #title {
+    font-size: 48px;
+  }
+  #subtitle {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #aboutUs {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  #title {
+    font-size: 48px;
+  }
+  #subtitle {
+    font-size: 24px;
+    line-height: normal;
+  }
+  #text {
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .zeroOne {
+  font-size: 100px;
+  line-height: 120px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1489.98px) {
+}
+/**end About */
+
+/*Our tema */
+
+#ourTeamtTitle {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fed803;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+#textTeam {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+.teamName {
+  color: #303030;
+  font-size: 32px;
+  font-family: "Arkibal-Serif-Heavy";
+}
+
+.devPosition {
+  color: #006667;
+  font-size: 24px;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+.ourTeamText {
+  font-size: 16px;
+  font-family: "Arkibal-Serif-Medium";
+}
+
+.ourTeamCardCont {
+  width: 40rem;
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ourTeamCard img {
+  width: 15rem;
+  height: auto;
+}
+
+.number {
+  background-color: #fed803;
+}
+
+.zeroTwo {
+  font-size: 128px;
+  line-height: 128px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Arkibal-Serif-Heavy";
+}
+.zeroTwo span {
+  font-family: "Arkibal-Serif-Thin";
+}
+a.socilamedia:link {
+  text-decoration: none;
+}
+
+a.socilamedia:visited {
+  text-decoration: none;
+}
+@media (max-width: 576px) {
+  #titleTeam {
+    font-size: 32px;
+  }
+  #ourTeamtTitle {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fed803;
+    padding-bottom: 24px;
+  }
+  .teamName {
+    font-size: 24px;
+  }
+  .devPosition {
+    font-size: 18px;
+  }
+  .ourTeamText {
+    font-size: 12px;
+  }
+  .ourTeamCardCont {
+    width: 20rem;
+  }
+  .ourTeamCard img {
+    width: 5rem;
+    height: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .ourTeamCardCont {
+    width: 35rem;
+  }
+  .ourTeamCard img {
+    width: 10rem;
+    height: auto;
+  }
+}
+/**End our team */
+/**Our team */
+#titleTech {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fed803;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+#titleTextTech {
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "Arkibal-Serif-Heavy";
+}
+
+#techText {
+  font-size: 16px;
+  font-family: "Arkibal-Serif-Regular";
+}
+
+#telefon {
+  height: 400px;
+  background-image: url("../img/network.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#techRow {
+  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardZoom{
+  transition: transform .4s;
+}
+
+.cardZoom:hover{
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.15); 
+  z-index: 1;
+}
+
+.cardTitle > a {
+  font-size: 24px;
+  font-family: "Arkibal-Serif-Regular";
+  text-decoration: none;
+  color: #303030;
+}
+
+.cardTitle:hover > a {
+  text-decoration: none;
+  color: #303030;
+}
+
+@media (max-width: 576px) {
+  #titleTech {
+    font-size: 44px;
+    color: #fed803;
+    padding-left: 15px;
+  }
+  #titleTextTech {
+    font-size: 32px;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .TechCardSec {
+    width: 12rem;
+  }
+}
+/**End our team */
+/**Our Clients */
+#clientTitle {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fed803;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+#zoom{
+  width: 18rem; 
+  height: 31rem;
+  transition: transform .4s;
+}
+
+#zoom:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.15);
+  z-index: 1; 
+}
+
+.card-title {
+  font-size: 32px;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+.card-title > a{
+  text-decoration: none;
+  color: #303030;
+}
+
+.card-title:hover > a{
+  text-decoration: none;
+  color: #303030;
+}
+.card-text {
+  font-family: "Arkibal-Serif-Medium";
+  font-size: 14px;
+}
+
+#cardClientText{
+  height: 9rem;
+}
+
+#clientBtnOne{
+  font-family: "Arkibal-Serif-Medium";
+  border: 1px solid #fed803;
+}
+
+#clientBtnOne:hover{
+  background-color: #fed803;
+  color: #fff;
+}
+
+.cardImgOne {
+  height: 100px;
+  width: 300px;
+  background-image: url("../assets/velofood.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  bottom: 0;
+}
+
+@media (max-width: 576px) {
+  #zoom{
+    width: 15rem; 
+    height: 27rem;
+  }
+  #cardClientText{
+    height: 6rem;
+  }
+  .card-title {
+    font-size: 20px;
+    font-family: "Arkibal-Serif-Bold";
+  }
+  .card-text {
+    font-family: "Arkibal-Serif-Medium";
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px){
+  #zoom{
+    width: 16rem; 
+    height: 27rem;
+  }
+  #cardClientText{
+    height: 6rem;
+  }
+  .card-title {
+    font-size: 20px;
+    font-family: "Arkibal-Serif-Bold";
+  }
+  .card-text {
+    font-family: "Arkibal-Serif-Medium";
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #zoom{
+    width: 18rem; 
+    height: 27rem;
+  }
+  #cardClientText{
+    height: 6rem;
+  }
+  .card-title {
+    font-size: 20px;
+    font-family: "Arkibal-Serif-Bold";
+  }
+  .card-text {
+    font-family: "Arkibal-Serif-Medium";
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  #zoom{
+    width: 18rem; 
+    height: 30rem;
+  }
+  #cardClientText{
+    height: 9rem;
+  }
+  .card-title {
+    font-size: 24px;
+    font-family: "Arkibal-Serif-Bold";
+  }
+  .card-text {
+    font-family: "Arkibal-Serif-Medium";
+    font-size: 12px;
+  }
+  .zeroTwo {
+  font-size: 100px;
+  line-height: 128px;
+}
+}
+/**EndOur Clients */
+/**Contact */
+.contactTitle {
+  font-size: 32px;
+  font-weight: 600;
+  color: #303030;
+  line-height: normal;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+#titleContact {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fed803;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+#contactBtn {
+  width: 200px;
+  height: 48px;
+
+  margin-top: 64px;
+
+  border: 1px solid #fed803;
+  color: #fed803;
+
+  font-size: 20px;
+  margin-bottom: 100px;
+  font-family: "Arkibal-Serif-Bold";
+}
+
+#contactBtn:hover {
+  background-color: #fed803;
+  color: #fff;
+}
+
+
+@media (max-width: 576px) {
+  #titleContact {
+    font-size: 48px;
+  }
+  .contactTitle {
+    font-size: 32px;
+    font-weight: 600;
+    color: #303030;
+    line-height: normal;
+  }
+  #contactBtn {
+    width: 155px;
+    height: 48px;
+  }
+}
+/**End Contact */
+/**Footer */
+.footerContainer {
+  background-color: #fed803;
+}
+/**End Footer */
